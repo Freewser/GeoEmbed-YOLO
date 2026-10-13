@@ -1,0 +1,14 @@
+# 数据集mask_data
+# dataset path
+path: /media/db306/e835eb80-e8ad-4728-8263-61e52cc524a1/lzy/datasets/images
+train: ./train  # path + train
+val: ./val # path + val
+
+# number of classes
+nc: 3
+
+# class names
+names:
+  0: slab
+  1: crane
+  2: craneandslab

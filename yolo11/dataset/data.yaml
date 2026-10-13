@@ -1,0 +1,14 @@
+# 数据集mask_data
+# dataset path
+path: E:/data/slab/real_data
+train: ./images/train  # path + train
+val: ./images/val # path + val
+
+# number of classes
+nc: 3
+
+# class names
+names:
+  0: slab
+  1: crane
+  2: craneandslab
